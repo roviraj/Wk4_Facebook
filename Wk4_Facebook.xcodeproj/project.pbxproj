@@ -13,6 +13,12 @@
 		3BD29E671A11B73D00F44EA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD29E661A11B73D00F44EA2 /* Images.xcassets */; };
 		3BD29E6A1A11B73D00F44EA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD29E681A11B73D00F44EA2 /* LaunchScreen.xib */; };
 		3BD29E761A11B73D00F44EA2 /* Wk4_FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E751A11B73D00F44EA2 /* Wk4_FacebookTests.swift */; };
+		3BD29E801A11C3A600F44EA2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E7F1A11C3A600F44EA2 /* FeedViewController.swift */; };
+		3BD29E821A11C49900F44EA2 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E811A11C49900F44EA2 /* RequestsViewController.swift */; };
+		3BD29E841A11C4C100F44EA2 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E831A11C4C100F44EA2 /* MessagesViewController.swift */; };
+		3BD29E861A11C51100F44EA2 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E851A11C51100F44EA2 /* NotificationsViewController.swift */; };
+		3BD29E881A11C53500F44EA2 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E871A11C53500F44EA2 /* MoreViewController.swift */; };
+		3BD29E8A1A11CDAE00F44EA2 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29E891A11CDAE00F44EA2 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		3BD29E6F1A11B73D00F44EA2 /* Wk4_FacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wk4_FacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD29E741A11B73D00F44EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD29E751A11B73D00F44EA2 /* Wk4_FacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wk4_FacebookTests.swift; sourceTree = "<group>"; };
+		3BD29E7F1A11C3A600F44EA2 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3BD29E811A11C49900F44EA2 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		3BD29E831A11C4C100F44EA2 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		3BD29E851A11C51100F44EA2 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		3BD29E871A11C53500F44EA2 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		3BD29E891A11CDAE00F44EA2 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 				3BD29E5F1A11B73D00F44EA2 /* AppDelegate.swift */,
 				3BD29E611A11B73D00F44EA2 /* ViewController.swift */,
 				3BD29E631A11B73D00F44EA2 /* Main.storyboard */,
+				3BD29E891A11CDAE00F44EA2 /* PhotoViewController.swift */,
+				3BD29E871A11C53500F44EA2 /* MoreViewController.swift */,
+				3BD29E851A11C51100F44EA2 /* NotificationsViewController.swift */,
+				3BD29E831A11C4C100F44EA2 /* MessagesViewController.swift */,
+				3BD29E811A11C49900F44EA2 /* RequestsViewController.swift */,
+				3BD29E7F1A11C3A600F44EA2 /* FeedViewController.swift */,
 				3BD29E661A11B73D00F44EA2 /* Images.xcassets */,
 				3BD29E681A11B73D00F44EA2 /* LaunchScreen.xib */,
 				3BD29E5D1A11B73D00F44EA2 /* Supporting Files */,
@@ -212,7 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD29E881A11C53500F44EA2 /* MoreViewController.swift in Sources */,
+				3BD29E841A11C4C100F44EA2 /* MessagesViewController.swift in Sources */,
 				3BD29E621A11B73D00F44EA2 /* ViewController.swift in Sources */,
+				3BD29E801A11C3A600F44EA2 /* FeedViewController.swift in Sources */,
+				3BD29E861A11C51100F44EA2 /* NotificationsViewController.swift in Sources */,
+				3BD29E8A1A11CDAE00F44EA2 /* PhotoViewController.swift in Sources */,
+				3BD29E821A11C49900F44EA2 /* RequestsViewController.swift in Sources */,
 				3BD29E601A11B73D00F44EA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
